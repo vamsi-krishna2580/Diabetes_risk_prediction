@@ -15,10 +15,12 @@
 
   Run all these commands 
   
-  cd Diabetes_risk_prediction
-  python -m venv venv
-  venv\Scripts\activate
-  pip install --upgrade pip
-  pip install -r requirements.txt
-  python app.py
-  
+## Backend setup (Windows)
+
+```powershell
+cd Diabetes_risk_prediction
+python -m venv venv
+venv\Scripts\activate
+pip install --upgrade pip
+pip install -r requirements.txt
+python app.py
