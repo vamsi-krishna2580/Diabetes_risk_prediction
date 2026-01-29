@@ -18,6 +18,7 @@
 ## Backend setup (Windows)
 
 ```powershell
+npm install
 cd Diabetes_risk_prediction
 python -m venv venv
 venv\Scripts\activate
