@@ -15,5 +15,12 @@
 
   Run all these commands 
   
-## Backend setup (Windows)
+## Backend setup (Windows) Recommended python version (3.11)
 
+```powershell
+cd Diabetes_risk_prediction
+npm install
+python -m venv venv
+venv\Scripts\activate
+pip install --upgrade pip
+pip install -r requirements.txt
